@@ -1,272 +1,265 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>Relatório 2016</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="all,follow">
-        <!-- Bootstrap and Font Awesome css-->
-        <!-- we use cdn but you can also include local files located in css directory-->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/font-awesome-animation.min.css">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        <!-- Google fonts - Montserrat for headings, Cardo for copy-->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
-        <!-- onepage scroll stylesheet-->
-        <link rel="stylesheet" href="css/onepage-scroll.css">
-        <!-- theme stylesheet-->
-        <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
-        <!-- Custom stylesheet - for your changes-->
-        <link rel="stylesheet" href="css/custom.css">
-        <!-- Favicon-->
-        <link rel="shortcut icon" href="favicon.png">
-        <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-    </head>
-    <body>
+<html dir="ltr" lang="en-US">
+<head>
 
-        <div class="wrapper">
-            <div class="main">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
 
-                <!-- page 1-->
-                <section id="page1">
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
 
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <div class="container clearfix">
-                            <div class="row">
-                                <div class="col-md-8 col-md-offset-2 col-sm-12">
-                                    <img src="img/logo.unimontes.png" class="img-responsive">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="icon faa-float animated"><i class="fa fa-angle-double-down"></i></div>
-                </section>
-                <!-- page 2-->
-                <section id="page2">
-                    <div class="content">
-                        <div class="container clearfix">
-                            <div class="row">
-                                <div class="col-md-6"> 
-                                    <h2 class="heading">About me</h2>
-                                    <p class="lead">This can be an about section or anything else ;)</p>
-                                    <p>Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many near nay. He exquisite continued explained middleton am. Voice hours young woody has she think equal. Estate moment he at on wonder at season little. Six garden result summer set family esteem nay estate. End admiration mrs unreserved discovered comparison especially invitation. </p>
-                                    <p>Delightful unreserved impossible few estimating men favourable see entreaties. She propriety immediate was improving. He or entrance humoured likewise moderate. Much nor game son say feel. Fat make met can must form into gate. Me we offending prevailed discovery. </p>
-                                </div>
-                                <div class="col-md-5 col-md-offset-1">
-                                    <p><img src="img/about.jpg" alt="" class="img-responsive img-circle"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- page 3 - class section-gray adds gray background-->
-                <section id="page3" class="section-gray">
-                    <div class="content">
-                        <div class="container clearfix">
-                            <div class="row services">
-                                <div class="col-md-12">
-                                    <h2 class="heading">Services</h2>
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="box">
-                                                <div class="icon"><i class="fa fa-desktop"></i></div>
-                                                <h4 class="heading">Webdesign</h4>
-                                                <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="box">
-                                                <div class="icon"><i class="fa fa-print"></i></div>
-                                                <h4 class="heading">Print</h4>
-                                                <p>Advantage old had otherwise sincerity dependent additions. It in adapted natural.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="box">
-                                                <div class="icon"><i class="fa fa-globe"></i></div>
-                                                <h4 class="heading">SEO and SEM</h4>
-                                                <p>Am terminated it excellence invitation projection as. She graceful shy. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="box">
-                                                <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
-                                                <h4 class="heading">Consulting</h4>
-                                                <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="box">
-                                                <div class="icon"><i class="fa fa-envelope-o"></i></div>
-                                                <h4 class="heading">Email Marketing</h4>
-                                                <p>Advantage old had otherwise sincerity dependent additions. It in adapted natural.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="box">
-                                                <div class="icon"><i class="fa fa-user"></i></div>
-                                                <h4 class="heading">UX &amp; UI</h4>
-                                                <p>Am terminated it excellence invitation projection as. She graceful shy. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="page4">
-                    <div class="content">
-                        <div class="container clearfix">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="heading">Portfolio</h2>
-                                    <p class="text-center">You can make also a portfolio or image gallery.</p>
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="box"><a href="#" title=""><img src="img/portfolio-1.jpg" alt="" class="img-responsive"></a></div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="box"><a href="#" title=""><img src="img/portfolio-2.jpg" alt="" class="img-responsive"></a></div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="box"><a href="#" title=""><img src="img/portfolio-3.jpg" alt="" class="img-responsive"></a></div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="box"><a href="#" title=""><img src="img/portfolio-4.jpg" alt="" class="img-responsive"></a></div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="box"><a href="#" title=""><img src="img/portfolio-5.jpg" alt="" class="img-responsive"></a></div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="box"><a href="#" title=""><img src="img/portfolio-6.jpg" alt="" class="img-responsive"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- page 5-->
-                <section id="page5" class="section-gray">
-                    <div class="content">
-                        <div class="container clearfix">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="heading">Text page</h2>
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
-                                            <p>Betrayed cheerful declared end and. Questions we additions is extremely incommode. Next half add call them eat face. Age lived smile six defer bed their few. Had admitting concluded too behaviour him she. Of death to or to being other. </p>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <p>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed. </p>
-                                            <p>Saw yet kindness too replying whatever marianne. Old sentiments resolution admiration unaffected its mrs literature. Behaviour new set existence dashwoods. It satisfied to mr commanded consisted disposing engrossed. Tall snug do of till on easy. Form not calm new fail. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- page 6-->
-                <section id="page6">
-                    <div class="content">
-                        <div class="container clearfix">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="heading">Contact</h2>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <form id="contact-form" method="post" action="contact.php" class="contact-form">
-                                                <div class="controls">
-                                                    <div class="row">
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label for="name">Your firstname *</label>
-                                                                <input type="text" name="name" placeholder="Enter your firstname" required="required" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label for="surname">Your lastname *</label>
-                                                                <input type="text" name="surname" placeholder="Enter your  lastname" required="required" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="surname">Your email *</label>
-                                                        <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="surname">Your message for us *</label>
-                                                        <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
-                                                    </div>
-                                                    <div class="text-center">
-                                                        <input type="submit" name="name" value="Send message" class="btn btn-primary btn-block">
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <p>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed. </p>
-                                            <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
-                                            <p class="social"><a href="#" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="#" title="" class="twitter"><i class="fa fa-twitter"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p>
-                                        </div>
-                                    </div>
-                                    <div class="row copyright">
-                                        <div class="col-md-6">
-                                            <p>&copy;2015 Your name/company goes here</p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <p class="credit">Template by <a href="https://bootstrapious.com/free-templates">Bootstrapious</a></p>
-                                            <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) If you want to use the template without the attribution links, you can do so after supporting further themes development at https://bootstrapious.com/donate  -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+	<!-- One Page Module Specific Stylesheet -->
+	<link rel="stylesheet" href="onepage.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<!-- Document Title
+	============================================= -->
+	<title>One Page Dark Parallax Image Full Screen | Canvas</title>
+
+</head>
+
+<body class="stretched">
+    
+    <div id="side-panel" class="dark">
+
+            <div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
+
+            <div class="side-panel-wrap">
+
+                <div class="widget clearfix">
+
+                    <h4>Pages</h4>
+
+                    <nav class="nav-tree nobottommargin">
+                        <ul>
+                            <li><a href="#"><i class="icon-bolt2"></i>Features</a>
+                                <ul>
+                                    <li><a href="#">Sliders</a></li>
+                                    <li><a href="#">Widgets</a></li>
+                                    <li><a href="#">Events</a></li>
+                                    <li><a href="#">Headers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="icon-briefcase"></i>Portfolio</a>
+                                <ul>
+                                    <li><a href="#">Grid</a>
+                                        <ul>
+                                            <li><a href="#">3 Columns</a></li>
+                                            <li><a href="#">4 Columns</a></li>
+                                            <li><a href="#">5 Columns</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Masonry</a></li>
+                                    <li><a href="#">Loading Styles</a></li>
+                                    <li><a href="#">Single</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="icon-file-text"></i>About</a>
+                                <ul>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="icon-map-marker"></i>Contact</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="widget quick-contact-widget clearfix">
+
+                    <h4>Quick Contact</h4>
+                    <div class="quick-contact-form-result"></div>
+                    <form id="quick-contact-form" name="quick-contact-form" action="include/quickcontact.php" method="post" class="quick-contact-form nobottommargin">
+                        <div class="form-process"></div>
+                        <input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name" />
+                        <input type="text" class="required sm-form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address" />
+                        <textarea class="required sm-form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
+                        <input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
+                        <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d nomargin" value="submit">Send Email</button>
+                    </form>
+
+                </div>
+
             </div>
+
         </div>
-        <!-- Javascript files-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-        <script src="js/jquery.cookie.js"></script>
-        <script src="js/jquery.onepage-scroll.js"></script>
-        <script src="js/front.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
-        <script>
-            (function (b, o, i, l, e, r) {
-                b.GoogleAnalyticsObject = l;
-                b[l] || (b[l] =
-                        function () {
-                            (b[l].q = b[l].q || []).push(arguments)
-                        });
-                b[l].l = +new Date;
-                e = o.createElement(i);
-                r = o.getElementsByTagName(i)[0];
-                e.src = '//www.google-analytics.com/analytics.js';
-                r.parentNode.insertBefore(e, r)
-            }(window, document, 'script', 'ga'));
-            ga('create', 'UA-XXXXX-X');
-            ga('send', 'pageview');
-        </script>
-    </body>
+    
+    <div id="wrapper" class="clearfix">
+
+        <header id="header" class="full-header dark transparent-header static-sticky" data-sticky-class="not-dark" data-sticky-offset="0">
+            <div id="header-wrap">
+                <div class="container clearfix">
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                    <div id="logo">
+                        <a href="index.html" class="standard-logo" data-dark-logo="imagens/relatorio.png"><img src="imagens/relatorio.colorido.png" alt="Canvas Logo" style="margin-top: 11px; height: 41px;"></a>
+                        <!--<a href="index.html" class="retina-logo" data-dark-logo="images/canvasone-dark@2x.png"><img src="images/canvasone@2x.png" alt="Canvas Logo"></a>-->
+                    </div>
+                    <nav id="primary-menu">
+                        <ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+                            <li><a href="#" data-href="#wrapper"><div>Início</div></a></li>
+                            <li><a href="#" data-href="#section-about"><div>Apresentação</div></a></li>
+                            <li><a href="#" data-href="#section-works"><div>A Unimontes</div></a></li>
+                            <li><a href="#" data-href="#section-services"><div>Resultados 2016</div></a></li>
+                            <li><a href="#" data-href="#section-blog"><div>Hino</div></a></li>
+                            <li><a href="#" data-href="#section-contact"><div>Unimontes em números</div></a></li>
+                            <li><a href="#" data-href="#section-contact"><div>Expediente</div></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <section id="slider" class="full-screen">
+            <div class="full-screen section dark parallax nopadding nomargin noborder ohidden" style="background-image: url('imagens/bg.png');" data-stellar-background-ratio="0">
+                <div class="container center">
+                    <div class="vertical-middle">
+                        <div class="emphasis-title col-md-12">
+                            <div class="col-md-6 col-md-offset-3">
+                                <img src="imagens/logo.unimontes.png" class="img-responsive">
+                            </div>
+                            <div class="col-md-12 text-uppercase heading-block nobottomborder center bottommargin">
+                                <h3>Construção coletiva</h3>
+                            </div>
+                            <div class="col-md-4 col-md-offset-4">
+                                <img src="imagens/logo.estado.png" class="img-responsive">
+                            </div>
+                        </div>
+                        <a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="100" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+                    </div>
+                </div>
+                <div class="video-wrap">
+                    <div class="video-overlay" style="background: rgba(0,0,0,0.6);"></div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        <section id="content">
+            <div class="content-wrap nopadding">
+
+                <div id="section-hero" class="section page-section nomargin" style="padding: 150px 0px; background-color: rgb(249, 249, 249); background-image: url('imagens/img1.jpg'); background-position: 30% 0px;" >
+                    <div class="container clearfix">
+                        <div class="row clearfix">
+                            <div class="col-sm-5 col-sm-offset-7 text-center">
+                                <div class="emphasis-title text-center">
+                                    <h2 class="capitalize t600" style="font-size: 54px;">Ensino</h2>
+                                </div>
+                                <p>
+                                    Além dos cursos de graduação e pós-graduação (Lato Sensu e Stricto Sensu), a Unimontes promove a qualificação de pessoal nas regiões onde está inserida, possibilitando a melhoria da qualidade de vida. Essa importante ação é viabilizada por intermédio do Centro de Educação Profissional e Tecnológica (CEPT), responsável pela manutenção da Escola Técnica de Saúde (ETS). Em 2015, foram ofertados diversos cursos técnicos a distância. A Universidade também oferece cursos de Tecnólogos.
+                                </p>
+                                <a href="#" class="button button-xlarge button-rounded side-panel-trigger bottommargin"><span>Veja mais<i class="icon-line-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="section-hero1" class="section page-section nomargin" style="padding: 150px 0px; background-color: rgb(249, 249, 249); background-image: url('imagens/img2.jpg'); background-position: 30% 0px;" >
+                    <div class="container clearfix">
+                        <div class="row clearfix">
+                            <div class="col-sm-5 col-sm-offset-7 text-center">
+                                <div class="emphasis-title text-center">
+                                    <h2 class="t600" style="font-size: 54px;">Educação à Distância</h2>
+                                </div>
+                                <p>
+                                    A educação a distância constitui um dos pilares da atuação da Unimontes, perfeitamente sintonizada com as mudanças e inovações tecnológicas. Os cursos desse modelo são ministrados por intermédio do Centro de Educação a Distância (CEAD), que conta com diversos pólos nas regiões onde a Universidade está inserida.
+                                </p>
+                                <a href="rs-demos.php" target="_blank" class="button button-circle button-border button-large button-black button-fill nomargin tright"><span>Veja mais<i class="icon-line-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="section-hero2" class="section page-section nomargin" style="padding: 150px 0px; background-color: rgb(249, 249, 249); background-image: url('imagens/img3.jpg'); background-position: 30% 0px;" >
+                    <div class="container clearfix">
+                        <div class="row clearfix">
+                            <div class="col-sm-5 col-sm-offset-7 text-center">
+                                <div class="emphasis-title text-center">
+                                    <h2 class="t600" style="font-size: 54px;">Pesquisa</h2>
+                                </div>
+                                <p>
+                                    A Unimontes busca de forma permanente a inserção na comunidade ao seu redor. Essa missão é cumprida por meio dos projetos e programas desenvolvidos junto à população. As ações implementadas buscam cada vez mais a participação dos professores e alunos, contribuindo diretamente com a melhoria da qualidade de vida da população.
+                                </p>
+                                <a href="rs-demos.php" target="_blank" class="button button-circle button-border button-large button-black button-fill nomargin tright"><span>Veja mais<i class="icon-line-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+	</div>
+    
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Google Map JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=YOUR_API_KEY"></script>
+	<script type="text/javascript" src="js/jquery.gmap.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script type="text/javascript">
+
+		jQuery(window).load(function(){
+
+			// Google Map
+			jQuery('#headquarters-map').gMap({
+				address: 'Melbourne, Australia',
+				maptype: 'ROADMAP',
+				zoom: 14,
+				markers: [
+					{
+						address: "Melbourne, Australia",
+						html: "Melbourne, Australia",
+						icon: {
+							image: "images/icons/map-icon-red.png",
+							iconsize: [32, 32],
+							iconanchor: [14,44]
+						}
+					}
+				],
+				doubleclickzoom: false,
+				controls: {
+					panControl: false,
+					zoomControl: false,
+					mapTypeControl: false,
+					scaleControl: false,
+					streetViewControl: false,
+					overviewMapControl: false
+				},
+				styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+			});
+
+		});
+
+	</script>
+
+</body>
 </html>
