@@ -25,7 +25,23 @@
 
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <style>
+            .side-panel{
+	background-color: #E6E6E6;
+	padding: 10px;
+}
 
+.side-panel-left{
+	box-shadow: -5px 0 15px -6px #585858 inset;
+}
+.side-panel-left-overlay{
+	box-shadow: -10px 0 15px 10px #585858;
+}
+.side-panel-right{
+	box-shadow: 5px 0 15px -6px #585858 inset;
+}
+        </style>
 
 	<!-- Document Title
 	============================================= -->
@@ -35,71 +51,9 @@
 
 <body class="stretched">
     
-    <div id="side-panel" class="dark">
-
-            <div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
-
-            <div class="side-panel-wrap">
-
-                <div class="widget clearfix">
-
-                    <h4>Pages</h4>
-
-                    <nav class="nav-tree nobottommargin">
-                        <ul>
-                            <li><a href="#"><i class="icon-bolt2"></i>Features</a>
-                                <ul>
-                                    <li><a href="#">Sliders</a></li>
-                                    <li><a href="#">Widgets</a></li>
-                                    <li><a href="#">Events</a></li>
-                                    <li><a href="#">Headers</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><i class="icon-briefcase"></i>Portfolio</a>
-                                <ul>
-                                    <li><a href="#">Grid</a>
-                                        <ul>
-                                            <li><a href="#">3 Columns</a></li>
-                                            <li><a href="#">4 Columns</a></li>
-                                            <li><a href="#">5 Columns</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Masonry</a></li>
-                                    <li><a href="#">Loading Styles</a></li>
-                                    <li><a href="#">Single</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><i class="icon-file-text"></i>About</a>
-                                <ul>
-                                    <li><a href="#">Company</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><i class="icon-map-marker"></i>Contact</a></li>
-                        </ul>
-                    </nav>
-
-                </div>
-
-                <div class="widget quick-contact-widget clearfix">
-
-                    <h4>Quick Contact</h4>
-                    <div class="quick-contact-form-result"></div>
-                    <form id="quick-contact-form" name="quick-contact-form" action="include/quickcontact.php" method="post" class="quick-contact-form nobottommargin">
-                        <div class="form-process"></div>
-                        <input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name" />
-                        <input type="text" class="required sm-form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address" />
-                        <textarea class="required sm-form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
-                        <input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
-                        <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d nomargin" value="submit">Send Email</button>
-                    </form>
-
-                </div>
-
-            </div>
-
+     <div id="slider" class="side-panel ">
+          <span class="lead">Hello World!!</span><br/>
+          <span class="text-muted">Press <kbd>ESC</kbd> to close</span>
         </div>
     
     <div id="wrapper" class="clearfix">
@@ -142,7 +96,7 @@
                                 <img src="imagens/logo.estado.png" class="img-responsive">
                             </div>
                         </div>
-                        <a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="100" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+                        <a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="100" class="one-page-arrow dark topmargin" style="bottom: -14px;"><i class="icon-angle-down infinite animated bounce"></i></a>
                     </div>
                 </div>
                 <div class="video-wrap">
@@ -167,7 +121,7 @@
                                 <p>
                                     Além dos cursos de graduação e pós-graduação (Lato Sensu e Stricto Sensu), a Unimontes promove a qualificação de pessoal nas regiões onde está inserida, possibilitando a melhoria da qualidade de vida. Essa importante ação é viabilizada por intermédio do Centro de Educação Profissional e Tecnológica (CEPT), responsável pela manutenção da Escola Técnica de Saúde (ETS). Em 2015, foram ofertados diversos cursos técnicos a distância. A Universidade também oferece cursos de Tecnólogos.
                                 </p>
-                                <a href="#" class="button button-xlarge button-rounded side-panel-trigger bottommargin"><span>Veja mais<i class="icon-line-arrow-right"></i></span></a>
+                                <button class="button button-circle button-border button-large button-black button-fill nomargin tright" id="sample-3-btn"><span>Veja mais<i class="icon-line-arrow-right"></i></span></button>
                             </div>
                         </div>
                     </div>
@@ -224,6 +178,26 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
+        <script type="text/javascript" src="js/slidereveal.js"></script>
+        
+        <script type="text/javascript">
+    	jQuery(window).load(function(){
+        $("#slider").slideReveal({
+          trigger: $("#sample-3-btn"),
+          push: false,
+          overlay: true,
+          width: '70%',
+            speed: 700
+        });
+    	});
+
+      /*
+      Then you call:
+      $("#slider").slideReveal("show");
+      $("#slider").slideReveal("hide");
+      $("#slider").slideReveal("toggle");
+      */
+    </script>
 
 	<script type="text/javascript">
 
