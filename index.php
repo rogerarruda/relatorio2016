@@ -26,35 +26,22 @@
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
         
-        <style>
-            .side-panel{
-	background-color: #E6E6E6;
-	padding: 10px;
-}
+        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 
-.side-panel-left{
-	box-shadow: -5px 0 15px -6px #585858 inset;
-}
-.side-panel-left-overlay{
-	box-shadow: -10px 0 15px 10px #585858;
-}
-.side-panel-right{
-	box-shadow: 5px 0 15px -6px #585858 inset;
-}
-        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+        <script src="vendors/jquery.easings.min.js"></script>
+        <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+        <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
 
 	<!-- Document Title
 	============================================= -->
-	<title>One Page Dark Parallax Image Full Screen | Canvas</title>
+	<title>Relatório de Gestão 2016</title>
 
 </head>
 
 <body class="stretched">
-    
-     <div id="slider" class="side-panel ">
-          <span class="lead">Hello World!!</span><br/>
-          <span class="text-muted">Press <kbd>ESC</kbd> to close</span>
-        </div>
     
     <div id="wrapper" class="clearfix">
 
@@ -187,7 +174,8 @@
           push: false,
           overlay: true,
           width: '70%',
-            speed: 700
+            speed: 700,
+            position: 'right'
         });
     	});
 
@@ -199,41 +187,6 @@
       */
     </script>
 
-	<script type="text/javascript">
-
-		jQuery(window).load(function(){
-
-			// Google Map
-			jQuery('#headquarters-map').gMap({
-				address: 'Melbourne, Australia',
-				maptype: 'ROADMAP',
-				zoom: 14,
-				markers: [
-					{
-						address: "Melbourne, Australia",
-						html: "Melbourne, Australia",
-						icon: {
-							image: "images/icons/map-icon-red.png",
-							iconsize: [32, 32],
-							iconanchor: [14,44]
-						}
-					}
-				],
-				doubleclickzoom: false,
-				controls: {
-					panControl: false,
-					zoomControl: false,
-					mapTypeControl: false,
-					scaleControl: false,
-					streetViewControl: false,
-					overviewMapControl: false
-				},
-				styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-			});
-
-		});
-
-	</script>
 
 </body>
 </html>
