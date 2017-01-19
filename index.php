@@ -199,12 +199,19 @@
                                 <p>
                                     A Unimontes busca de forma permanente a inserção na comunidade ao seu redor. Essa missão é cumprida por meio dos projetos e programas desenvolvidos junto à população. As ações implementadas buscam cada vez mais a participação dos professores e alunos, contribuindo diretamente com a melhoria da qualidade de vida da população.
                                 </p>
-                                <a href="rs-demos.php" target="_blank" class="button button-circle button-border button-large button-black button-fill nomargin tright"><span>Veja mais<i class="icon-line-arrow-right"></i></span></a>
+                                <a  role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="button button-circle button-border button-large button-black button-fill nomargin tright"><span>Veja mais<i class="icon-line-arrow-right"></i></span></a>
                             </div>
-                        </div>
+                           
+                            </div>
+
+                    </div>
+
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="well">
+                        <p>As principais ações desenvolvidas da pela Pró-Reitoria de Pesquisa, com foco no crescimento e na qualidade, são: a institucionalização e acompanhamento dos projetos de pesquisa; avanço em programas estratégicos para a iniciação científica, visando a ampliação das pesquisas bem como a produção intelectual; incremento à captação de recursos financeiros para ampliação da estrutura de pesquisa junto às agências de fomento; estabelecimento de convênios e acordos de cooperação com outras instituições para desenvolvimento de projetos e potencialização da captação de recursos; continuidade de apoio à Coordenadoria de Inovação</p>
                     </div>
                 </div>
-
             </div>
         </section>
 	</div>
