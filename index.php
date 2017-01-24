@@ -199,7 +199,7 @@
                                 <p>
                                     A Unimontes busca de forma permanente a inserção na comunidade ao seu redor. Essa missão é cumprida por meio dos projetos e programas desenvolvidos junto à população. As ações implementadas buscam cada vez mais a participação dos professores e alunos, contribuindo diretamente com a melhoria da qualidade de vida da população.
                                 </p>
-                                <a  role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="button button-circle button-border button-large button-black button-fill nomargin tright"><span>Veja mais<i class="icon-line-arrow-right"></i></span></a>
+                                <a  role="button" data-toggle="collapse" href="#pesquisa" id="teste21" aria-expanded="false" aria-controls="pesquisa" class="button button-circle button-border button-large button-black button-fill nomargin tright"><span>Veja mais<i class="icon-line-arrow-right"></i></span></a>
                             </div>
                            
                             </div>
@@ -207,9 +207,33 @@
                     </div>
 
                 </div>
-                <div class="collapse" id="collapseExample">
+                <div class="collapse" id="pesquisa">
                     <div class="well">
                         <p>As principais ações desenvolvidas da pela Pró-Reitoria de Pesquisa, com foco no crescimento e na qualidade, são: a institucionalização e acompanhamento dos projetos de pesquisa; avanço em programas estratégicos para a iniciação científica, visando a ampliação das pesquisas bem como a produção intelectual; incremento à captação de recursos financeiros para ampliação da estrutura de pesquisa junto às agências de fomento; estabelecimento de convênios e acordos de cooperação com outras instituições para desenvolvimento de projetos e potencialização da captação de recursos; continuidade de apoio à Coordenadoria de Inovação</p>
+                        <p>Tecnológica, Incubadora de Empresas de Base Tecnológica e ao Núcleo de Propriedade Intelectual, com vistas à geração de patentes para a universidade; gestão da revista eletrônica Unimontes Científica como canal multidisciplinar de divulgação dos artigos científicos; participação na promoção anual do Fórum de Ensino, Pesquisa, Extensão e Gestão, como forma de garantir a visibilidade da produção acadêmica; dar suporte aos Comitês de Ética em Pesquisa e Bem Estar Animal, Comissão Interna de Biossegurança e ao Núcleo de Bioética, com a finalidade de garantir a normatização e segurança na realização das pesquisas. Faz-se muito importante ainda garantir a divulgação dos editais junto às principais agências de fomento (Fapemig, SECTES, CNPq, CAPES, Finep e BNB/Fundeci, entre outras). Enfatizamos que é de grande relevância que continuemos a contar com os apoios advindos das referidas fontes de forma a propiciar por exemplo, a participação individual e coletiva de professores e acadêmicos em atividades técnico científicas no país e no exterior, apoio a organização de eventos acadêmicos, financiamento de bolsas de pesquisa e inovação tecnológica, além da publicação de livros e de artigos em revistas indexadas. Estas ações refletirão diretamente na melhoria da qualidade da pesquisa e inovação no âmbito da graduação e pós-graduação, além de ampliar oportunidades para novas parcerias interinstitucionais.</p>
+                        <p><h2 style="align center">Projetos de Pesquisa Vigentes</h2>
+                             <br/>
+                           <table id="tituloTabela" class="table table-bordered">
+                              <tr>
+                                 <th>Modalidade</th>
+                                 <th>QTD</th>
+                              </tr>
+                              <tr>
+                                 <td>Projetos de Pesquisa</td>
+                                 <td>212</td>
+                              </tr>
+                              <tr>
+                                 <td>Grupos de Pesquisa</td>
+                                 <td>51</td>
+                              </tr>
+                              <tr>
+                                 <td>Linhas de Pesquisa</td>
+                                 <td>192</td>
+                              </tr>
+                           </table>
+                                
+
+                        </p>        
                     </div>
                 </div>
             </div>
@@ -232,41 +256,24 @@
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
 
-	<script type="text/javascript">
+	<script>
+        $(function(){
+          $("#teste21").click(function (event) {
 
-		jQuery(window).load(function(){
+            event.preventDefault();
+            var idElemento = $(this).attr("href");
 
-			// Google Map
-			jQuery('#headquarters-map').gMap({
-				address: 'Melbourne, Australia',
-				maptype: 'ROADMAP',
-				zoom: 14,
-				markers: [
-					{
-						address: "Melbourne, Australia",
-						html: "Melbourne, Australia",
-						icon: {
-							image: "images/icons/map-icon-red.png",
-							iconsize: [32, 32],
-							iconanchor: [14,44]
-						}
-					}
-				],
-				doubleclickzoom: false,
-				controls: {
-					panControl: false,
-					zoomControl: false,
-					mapTypeControl: false,
-					scaleControl: false,
-					streetViewControl: false,
-					overviewMapControl: false
-				},
-				styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-			});
+            console.log(idElemento);
 
-		});
+            var deslocamento = $(idElemento).offset().top;
+            
+            $('html, body').animate({ scrollTop: deslocamento }, 'slow');
 
-	</script>
+
+
+          });
+        });
+    </script>
 
 </body>
 </html>
