@@ -160,7 +160,7 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
 		/**
 		 * Support Custom Editor Style.
 		 */
-		add_editor_style( 'assets/css/editor-style.css' );
+		//add_editor_style( 'assets/css/editor-style.css' );
 
 		/**
 		 * Add support for infinite scroll.
@@ -321,7 +321,7 @@ add_action( 'wp_enqueue_scripts', 'odin_enqueue_scripts', 1 );
  * @return string      New URI.
  */
 function odin_stylesheet_uri( $uri, $dir ) {
-	return $dir . '/assets/css/style.css';
+	//return $dir . '/assets/css/style.css';
 }
 
 add_filter( 'stylesheet_uri', 'odin_stylesheet_uri', 10, 2 );

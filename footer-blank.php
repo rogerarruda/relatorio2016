@@ -29,14 +29,14 @@
                 anchors: [
                     <?php 
                     $i = 0; 
-                    foreach ($pageid as $id) 
+                    foreach ($pageid as $id): 
                         if ($i != count($pageid)-1):
                             echo '"'.get_post_field('post_name', $id).'", ';
                             $i++;
                         else:
                             echo '"'.get_post_field('post_name', $id).'"';
                         endif;
-                        
+                    endforeach;
                     ?>
                 ],
                 //sectionsColor: ['', '', '#7E8F7C'],
