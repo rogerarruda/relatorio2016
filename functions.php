@@ -29,6 +29,46 @@ function your_init(){
  
 }
 
+function onepage_navmenu($menu_name){
+
+	$locations = get_nav_menu_locations();	 //DEBUG: print_r($locations);
+
+	if ( isset( $locations[ $menu_name ] ) ) {
+
+		$menu = wp_get_nav_menu_object( $locations[ $menu_name ] );
+
+		$menu_items = wp_get_nav_menu_items($menu->term_id);
+
+		print_r($menu_items);
+
+		$menu_list = '<ul id="menu-' . $menu_name . '">';
+
+		foreach ( (array) $menu_items as $key => $menu_item ) {
+			$title = $menu_item->title;
+			$url = basename($menu_item->url);
+			$menu_list .= '<li><a href="#' . $url . '">' . $title . '</a></li>';
+		}
+
+		$menu_list .= '</ul>';
+
+    } else {
+		$menu_list = '<ul><li>Menu "' . $menu_name . '" não definido.</li></ul>';
+    }
+
+	echo $menu_list;
+}
+
+//Ativando Custom Nav Menus
+function register_main_menus() {
+   register_nav_menus(
+	array(
+	   'menu-principal' => __( 'Menu Principal onepage' ) //'menu-principal' é o 'menu location' e 'Menu Principal' é o nome do meu menu
+	   )
+   );
+};
+if (function_exists('register_nav_menus')) add_action( 'init', 'register_main_menus' );
+
+
 require_once( dirname( __FILE__ ) . '/shortcodes/map.php' );
  
 if ( ! isset( $content_width ) ) {
