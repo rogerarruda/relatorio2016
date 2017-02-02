@@ -37,9 +37,11 @@ $subpaginas = get_page_children($idpagina[0],$todasPaginas);
         </div>
         
         <?php foreach ($subpaginas as $subpag):?>
-            <div class="slide bgcolor" id="slide-<?php echo $subpag->ID; ?>">
-                <h1>Slide 2</h1>
-                <?php print_r($subpag); ?>
+            <div class="slide bg-white" id="slide-<?php echo $subpag->ID; ?>">
+                <div class="container">
+                    <h1><?php echo get_post_field('post_title',$subpag->ID); ?></h1>
+                    <?php echo get_post_field('post_content',$subpag->ID); ?>
+                </div>
             </div>
         <?php endforeach; ?>
 
