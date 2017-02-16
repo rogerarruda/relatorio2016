@@ -6,6 +6,7 @@
     ============================================= -->
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.js"></script>
+    
 
     <?php
     global $post;

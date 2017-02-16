@@ -69,11 +69,11 @@ if (function_exists('kc_do_shortcode')) {
         <div class="vertical-middle">
             <div class="emphasis-title col-md-12">
                 <div class="col-md-6 col-md-offset-3">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10">
+                    <div class="col-md-1 col-sm-2 col-xs-3"></div>
+                    <div class="col-md-10 col-sm-8 col-x-6">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imagens/logo.unimontes.png" class="img-responsive">
                     </div>
-                    <div class="col-md-1"></div>
+                    <div class="col-md-1 col-sm-2 col-xs-3"></div>
                 </div>
                 <div class="col-md-12 text-uppercase heading-block nobottomborder center bottommargin">
                     <h3>Construção coletiva</h3>

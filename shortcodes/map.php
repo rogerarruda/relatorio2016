@@ -56,6 +56,8 @@ function Widgets() {
                                 'bg-gradient-right' => 'Preto Direita-Esquerda',
                                 'bg-gradient-left-white' => 'Branco Esquerda-Direita',
                                 'bg-gradient-right-white' => 'Branco Direita-Esquerda',
+                                'bg-full-black' => 'Tela inteira preto',
+                                'bg-full-white' => 'Tela inteira branco',
                             ),
                             'description' => 'Cor do fundo para o texto',
                         ),
@@ -64,7 +66,7 @@ function Widgets() {
                             'label' => 'Cor do botão',
                             'type' => 'radio',  // USAGE CHECKBOX TYPE
                             'options' => array( 
-                                'button-blue button-dark' => 'Azul',
+                                'button-blue' => 'Azul',
                                 'button-white button-light' => 'Branco',
                             ),
                             'description' => 'Cor do botão na página',
