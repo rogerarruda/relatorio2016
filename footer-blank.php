@@ -46,6 +46,8 @@
                 slidesNavigation: true,
                 loopHorizontal: false,
                 scrollOverflow: true,
+                scrollOverflowReset: true,
+		scrollOverflowOptions: null,
             });
         });
     </script>

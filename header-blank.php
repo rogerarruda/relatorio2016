@@ -33,7 +33,7 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom.css" type="text/css" />
         
 
-        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/js/fullpage/jquery.fullPage.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/js/fullpage/jquery.fullpage.css" />
 
         <style>
             #header .active > a {

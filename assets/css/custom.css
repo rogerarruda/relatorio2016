@@ -5,6 +5,9 @@
         Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
+.long-text-slide {
+    margin: 150px 70px!important;
+}
 .bg-white {
     background: #FFFFFF!important;
 }

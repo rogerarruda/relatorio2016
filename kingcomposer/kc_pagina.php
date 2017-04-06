@@ -1,6 +1,6 @@
 <?php  
 $query = new WP_Query(); 
-$todasPaginas = $query->query(array('post_type' => 'page'));
+$todasPaginas = $query->query(array('post_type' => 'page', 'posts_per_page' => '-1'));
 $idpagina = explode(":", $atts['page-id']);
 $subpaginas = get_page_children($idpagina[0],$todasPaginas); 
 ?>
@@ -33,8 +33,8 @@ $subpaginas = get_page_children($idpagina[0],$todasPaginas);
                 wp_reset_postdata();
                 ?>
                 <?php if(!empty($subpaginas)): ?>
-                <div class="topmargin-md">
-                    <a href="#<?php echo get_post_field('post_name', $atts['page-id']); ?>/1" class="button button-3d button-rounded <?php echo $atts['cor-botao']; ?>">
+                <div style="margin-top: 30px;">
+                    <a href="#<?php echo get_post_field('post_name', $atts['page-id']); ?>/1" class="button button-3d button-rounded <?php echo $atts['cor-botao']; ?>" style="margin-left: 0;">
                         <span>Veja mais<i class="icon-line-arrow-right"></i></span>
                     </a>
                 </div>
@@ -43,9 +43,11 @@ $subpaginas = get_page_children($idpagina[0],$todasPaginas);
             </div>
         </div>
         
+        <?php //var_dump($subpaginas); ?>
+        
         <?php foreach ($subpaginas as $subpag):?>
             <div class="slide bg-white text-black" id="slide-<?php echo $subpag->ID; ?>">
-                <div class="container topmargin-lg bottommargin-lg">
+                <div class="container long-text-slide">
                     <h1><?php echo get_post_field('post_title',$subpag->ID); ?></h1>
                     <?php echo get_post_field('post_content',$subpag->ID); ?>
                 </div>

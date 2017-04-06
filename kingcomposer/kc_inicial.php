@@ -7,6 +7,7 @@ if (function_exists('kc_do_shortcode')) {
     for($i = 2; $i < count($short)-2; $i++){
         $shotcode[$j] = $short[$i];
         $arrayshort[$j] = shortcode_parse_atts($shotcode[$j]);
+        $subpagina[$j] = $arrayshort[$j]['subpagina'];
         $pageid[$j] = explode(":", $arrayshort[$j]['page-id']);
         $pageid[$j] = $pageid[$j][0];
         $j++;
@@ -30,11 +31,15 @@ if (function_exists('kc_do_shortcode')) {
                         <?php 
                         
                         $i = 0; 
-                        foreach ($pageid as $id): ?>
+                        foreach ($pageid as $id): 
+                            if ($subpagina[$i] != 1): ?>
+                            
                             <li data-menuanchor="<?php echo get_post_field('post_name', $id); ?>" class="current">
                                 <a href="#<?php echo get_post_field('post_name', $id); ?>"><?php echo get_post_field('post_title', $id); ?></a>
                             </li>
                         <?php 
+                        $i++;
+                        endif;
                         endforeach;
                         
                         ?>

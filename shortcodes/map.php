@@ -14,6 +14,16 @@ function Widgets() {
                     'category' => 'Content',
                     'params' => array(
                         array(
+                            'type' => 'radio',
+                            'label' => __('É subpágina?', 'KingComposer'),
+                            'name' => 'subpagina',
+                            'options' => array(    // REQUIRED
+                                '1' => 'SIM',
+                                '0' => 'NÃO'
+                            ),
+                            'description' => __('', 'KingComposer')
+                        ),
+                        array(
                             'type' => 'text',
                             'label' => __('Título', 'KingComposer'),
                             'name' => 'titulo',
@@ -79,6 +89,16 @@ function Widgets() {
                     'icon' => 'fa-file-text',
                     'category' => 'Content',
                     'params' => array(
+                        array(
+                            'type' => 'radio',
+                            'label' => __('É subpágina?', 'KingComposer'),
+                            'name' => 'subpagina',
+                            'options' => array(    // REQUIRED
+                                '1' => 'SIM',
+                                '0' => 'NÃO'
+                            ),
+                            'description' => __('', 'KingComposer')
+                        ),
                         array(
                             'type' => 'text',
                             'label' => __('Título', 'KingComposer'),
